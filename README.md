@@ -19,8 +19,6 @@ Qiskit consists of four foundational elements:
 
 I would be doing it on mainly on Google Colab and on my Ubuntu system too. It is recommended to use Python virtual environments to cleanly separate Qiskit from other applications for better experience. This issue is resolved for Google colab and as I am running Ubuntu on my VirtualBox, I would be directly installing the package there.
 
-## Step 1 
-
 This is the only step for successful installation of qiskit in Ubuntu and Google Colab too.
 - For Ubuntu
 ```
@@ -40,4 +38,15 @@ Run ``` qiskit.__qiskit_version__ ``` on Colab, the results should be look simil
  'qiskit-ignis': '0.4.0',
  'qiskit-terra': '0.15.2'}
  ```
- Now we are good to go 👍
+We are good to go 👍
+
+Now, we will optimize Quantum circuits using <b>PyZX</b> which is a Python tool implementing the theory of ZX-calculus for the creation, visualisation, and automated rewriting of large-scale quantum circuits. Demo can be seen [here](https://www.youtube.com/watch?v=iC-KVdB8pf0)
+
+For entire walkthrough visit the official repo [here](https://github.com/Quantomatic/pyzx), I would be doing my work on Google Colab and further instructions in the Jupyter Notebook would follow the same. In the notebook a randomly generated curcuit is optimized, but optimizing such random circuit is of no use. It can be found inside Optimization_demo folder.
+
+## The Main goal would be to;
+
+ - Transform a given Quantum Circuit into one which is executable on a specific device, preserving measurement outcomes on a specific device. ( <b> Compatibility </b>) 
+ - Find an implementation which takes maximal advantage of target device resources, while minimizing influence of decoherence and errors. ( <b> Optimiation </b> )
+
+<b> PyZX </b>  would play Hero in this part of the repo.
