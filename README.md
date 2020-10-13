@@ -1,4 +1,4 @@
-# Quantum_Computing_with_Qiskit
+# Qiskit
 
 This is the Entire walkthrough of what I am following right from installation of Qiskit to some sample codes to implement. The repository reflects my understandings and work on Qiskit. Lets Start ✨
 
@@ -39,6 +39,8 @@ Run ``` qiskit.__qiskit_version__ ``` on Colab, the results should be look simil
  'qiskit-terra': '0.15.2'}
  ```
 We are good to go 👍
+
+# Quantum-Circuit-Optimization-with-PyZX
 
 Now, we will optimize Quantum circuits using <b>PyZX</b> which is a Python tool implementing the theory of ZX-calculus for the creation, visualisation, and automated rewriting of large-scale quantum circuits. Demo can be seen [here](https://www.youtube.com/watch?v=iC-KVdB8pf0)
 
